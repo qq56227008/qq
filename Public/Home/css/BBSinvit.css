@@ -1,0 +1,196 @@
+.BBSinvitContent{
+	width:860px;
+	height: auto;
+	border:1px solid #EBEAEA; 
+	margin-bottom: 10px;
+}
+.BbsLz{
+	width:858px;
+}
+.LZhead{
+	width:160px;
+	height: auto;
+}
+.LZhead ul{
+	margin:0px;
+	padding:0px; 
+	float:left;
+}
+.TXhead{
+
+	padding-top: 20px;
+	padding-left:30px; 
+}
+.TXhead a img{ 
+	width: 110px;
+	height: 130px;
+}
+.LZname{
+	padding-top: 10px;
+	padding-left:30px;
+	color: #FF0000;
+	font-weight: 700;
+	font-size: 16px;
+}
+.LZlv{
+	padding-top: 10px;
+	padding-left:30px;
+	padding-bottom:30px; 
+	color: #FF0000;
+	font-size: 14px;
+}
+.LeftInfo{
+	padding-top: 5px;
+	padding-left:30px;
+}
+.left01{
+	color: #444444;
+}
+.left02{
+	color: #909090;
+}
+.LZcontent{
+	float:right;
+	width: 680px;
+	padding:0px; 
+	height: auto;
+}
+.LZcontent ul{
+	margin:0px;
+	padding:0px;
+	
+}
+.BbsTitle{
+	padding-left: 10px;
+	font-weight: 900;
+	font-size:22px; 
+}
+.BBSreplay{
+	width:860px;
+	height: auto;
+	border:1px solid #EBEAEA; 
+}
+
+.BBStable{
+	position: relative;
+	border-top:1px solid #ccc;
+}
+.BBStable tr{
+	height: 40px;
+	border-bottom:1px solid #ccc; 
+	border-top:1px solid #ccc;
+	
+}
+.BBStable tr th{
+	background: #f4f4f4;
+	color: #4d4d4d;
+	font-size:13px; 
+}
+#footEdit{
+	width:860px;
+	height: auto;
+	border:1px solid #EBEAEA; 
+	margin-bottom: 10px;
+}
+.span{
+	float: left;
+}
+.span button{
+	background:#D6D6D6;
+ 	padding-top:3px;
+	border:1px solid #fff;
+ 	width:80px;
+ 	border-radius: 5px;
+ 	height:auto;
+ 	font-size:10px;
+ 	color:#1A98E8;
+}
+.span button:hover{
+	cursor: pointer;
+}
+#CLbtn{
+	background:#FD6440;
+ 	padding-top:3px;
+	border:1px solid #fff;
+ 	width:90px;
+ 	border-radius: 5px;
+ 	height:40px;
+ 	font-size:10pt;
+ 	color:#fff;
+}
+#like{
+	background:#FD6440;
+ 	padding-top:3px;
+	border:1px solid #fff;
+ 	width:90px;
+ 	border-radius: 5px;
+ 	height:40px;
+ 	font-size:10pt;
+ 	color:#fff;
+}
+#CLbtn:hover{
+	cursor: pointer;
+
+}
+#like:hover{
+	cursor: pointer;
+
+}
+.BBSfloor{
+	width:50px;
+	text-align: center;
+	float: right;
+	color:#fff;
+	font-size: 16px;
+	font-weight:700; 
+	font-family: '幼圆';
+	background:#1A98E8;
+	border-radius: 5px;
+}
+.BBSfloorLZ{
+	width:50px;
+	text-align: center;
+	float: right;
+	color:#fff;
+	font-size: 16px;
+	font-weight:700; 
+	font-family: '幼圆';
+	background:#1A98E8;
+	border-radius: 5px;
+}
+.Ctime{
+	float: left;
+	color:#a5a5a5;
+}
+.ReDe span{
+	
+	color:#909090;
+}
+.ReDe{
+	width:150px;
+}
+.ReDe span:hover{
+	cursor: pointer;
+}
+.rere:hover{
+	color:#1A98E8;
+}
+.dede:hover{
+	color:red;
+}
+.replay{
+	border:1px solid #ccc;
+	width: 500px;
+	height: 27px;
+}
+.REtr{
+	display: none;
+}
+.FSbtn{
+	float:right;
+}
+.LZinvit{
+	position: relative;
+	width:698px;
+	height: auto;
+}

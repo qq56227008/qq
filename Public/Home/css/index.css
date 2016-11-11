@@ -1,0 +1,329 @@
+.main{
+	padding-top: 30px;
+}
+.main a:hover {
+    color: #ff6f3d;
+}
+.py_lunbo {
+	width: 960px;
+	height: 350px;
+	margin: 0 auto 20px auto;
+	overflow: hidden;
+	position: relative;
+	border-radius: 5px;
+}
+.py_lunbo_container {
+	width: 9600px;
+	height: 350px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8;
+}
+.py_lunbo_container a {
+	display: block;
+	float: left;
+	margin: 0;
+	width: 960px;
+	height: 350px;
+}
+.py_lunbo_container a img {
+	border-radius: 5px;
+	width: 960px;
+	height: 350px;
+}
+.prev, .next {
+	position: absolute;
+	width: 22px;
+	height: 41px;
+	top: 158px;
+	cursor: pointer;
+	z-index: 99;
+	background: url(../images/geek_4.png) no-repeat;
+	display: none;
+}
+.prev {
+	left: 10px;
+	background-position: 0 -3px;
+}
+.next {
+	right: 10px;
+	background-position: -35px -3px;
+}
+.prev:hover {
+	background-position: 0 -82px;
+}
+.next:hover {
+	background-position: -35px -82px;
+}
+.points {
+	width: 94px;
+	height: 10px;
+	padding-left: 6px;
+	position: absolute;
+	left: 430px;
+	bottom: 15px;
+	z-index: 99;
+	text-align: center;
+}
+.points div {
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background-color: #FFF;
+	opacity: 0.7;
+	display: inline-block;
+	margin-right: 6px;
+	cursor: pointer;
+}
+.points div.current_pointer {
+	background-color: #FFF;
+	opacity: 1;
+}
+
+.banner_links{
+	width: 960px;
+	height: 160px;
+	margin: 0 auto 20px auto;
+}
+.banner_links a{
+	display: block;
+	float: left;
+	margin-right: 12px;
+	width: 312px;
+}
+a.banner_link_last{
+	margin-right: 0;
+}
+.banner_links a img{
+	width: 310px;
+	height: 158px;
+	border-radius: 5px;
+	border: 1px solid #e3e3e4;
+}
+
+.main_content {
+	width: 960px;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+.left {
+	width: 698px;
+	float: left;
+	border: 1px solid #eaeaea;
+	background-color: white;
+	border-radius: 5px;
+}
+.article {
+	padding: 20px 35px;
+}
+.article>h3 {
+	font-size: 22px;
+	color: #393939;
+	line-height: 40px;
+	margin-bottom: 15px;
+}
+.article>a {
+	display: block;
+	margin-bottom: 20px;
+}
+.article>a img{
+	border-radius: 5px;
+}
+.article>p {
+	font-size: 14px;
+	color: #666666;
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+.article_info {
+	color: #c5c5c5;
+	font-size: 12px;
+	line-height: 22px;
+}
+.article_info_left {
+	color: #c5c5c5;
+	width: 400px;
+	float: left;
+}
+.article_info_left img {
+	float: left;
+	border-radius: 11px;
+	width: 22px;
+	height: 22px;
+	line-height: 22px;
+}
+.article_info_left a{
+	color: #c5c5c5;
+}
+.article_info_left a:hover{
+	color: #fd6440;
+}
+.author {
+	padding: 0 8px 0 5px;
+}
+.article_info_right {
+	color: #c5c5c5;
+	float: right;
+	width: 190px;
+	height: 16px;
+	line-height: 16px;
+	text-align: right;
+}
+.article_info_right span {
+	display: inline-block;
+	padding-left: 20px;
+	margin-right: 15px;
+}
+.article_info_right_0 {
+	background: url(../images/geek_2.png) no-repeat 0 0;
+}
+.article_info_right_1 {
+	background: url(../images/geek_2.png) no-repeat -68px 0;
+}
+span.article_info_right_2 {
+	background: url(../images/forum_3.png) no-repeat -118px -2px;
+	margin-right: 0;
+	cursor: pointer;
+	position: relative;
+}
+.share_notice{
+	position: absolute;
+	right: 0;
+	bottom: 14px;
+	display: block;
+	width: 155px;
+	height: 40px;
+	padding-top: 7px;
+	padding-left: 2px;
+	background: url(../images/forum_4.png) no-repeat -0 0px;
+	text-align: left;
+	z-index: 999;
+	display: none;
+}
+.share_notice em{
+	display: inline-block;
+	width: 28px;
+	height: 22px;
+	text-align: left;
+	margin-left: 18px;
+	text-indent: -9999px;
+}
+.share_sina{
+	background: url(../images/forum_3.png?version=1) no-repeat 0px 0px;
+}
+.share_weixin{
+	background: url(../images/forum_3.png?version=1) no-repeat -43px 0px;
+}
+.share_tencent{
+	background: url(../images/forum_3.png?version=1) no-repeat -85px 0px;
+}
+
+
+.pages {
+	font-size: 12px;
+	padding: 40px 0 60px 0; 
+	text-align: center;
+}
+.pages a {
+	border-radius: 4px;
+  	margin-left: 4px;
+  	padding: 6px 10px;
+  	height: 26px;
+  	border: 1px solid #EBEBEB;
+  	background: #FBFBFB;
+  	color: #909090;
+  	overflow: hidden;
+  	text-decoration: none;
+}
+.pages span {
+  border-radius: 4px;
+  margin-left: 4px;
+  padding: 6px 10px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: #000;
+  height: 26px;
+  line-height: 26px;
+}
+.pages span.page_current {
+  background: none;
+  border: none;
+  color: #000;
+}
+.share_to_weixin{
+	border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 12px;
+    height: 340px;
+    width: 340px;
+    padding: 10px 0;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -170px;
+    margin-top: -170px;
+    background-color: white;
+    z-index: 9999;
+}
+#qrcode{
+	width: 194px;
+	height: 194px;
+	margin: 20px auto;
+}
+.share_to_weixin h2{
+	font-size: 16px;
+	line-height: 30px;
+	border-bottom: 1px solid #dddddd;
+	padding: 5px 15px 10px;
+}
+.share_to_weixin p{
+	font-size: 12px;
+	line-height: 18px;
+	border-top: 1px solid #dddddd;
+	padding: 15px 15px 5px;
+}
+.share_to_weixin a{
+	position: absolute;
+	right: 13px;
+	top: 8px;
+	opacity: 0.2;
+}
+
+.footer {
+	background-color: #eeeeee;
+	padding: 60px 0 80px 0;
+}
+.footer p {
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+	color: #666666;
+	font-size: 12px;
+	line-height: 24px;
+}
+.footer p span {
+	color: #c2c1c1;
+	padding: 0 6px;
+}
+.to_top {
+	background: url(http://static.bbs.miui.com/static/image/miui/base/scrolltop.png) no-repeat left top;
+	width: 37px;
+	position: fixed;
+	bottom: 120px;
+	display: none;
+}
+.to_top a{
+	display: block;
+	width: 37px;
+	height: 40px;
+}
+.rb_top:hover{
+	background: url(http://static.bbs.miui.com/static/image/miui/base/scrolltop.png) no-repeat -43px 0;
+}
+.rb_comment:hover{
+	background: url(http://static.bbs.miui.com/static/image/miui/base/scrolltop.png) no-repeat -43px -40px;
+}
+.rb_index:hover{
+	background: url(http://static.bbs.miui.com/static/image/miui/base/scrolltop.png) no-repeat -43px -80px;
+}

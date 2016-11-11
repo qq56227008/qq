@@ -1,0 +1,25 @@
+#BBSedit{
+	width:860px;
+	height: auto;
+	border:1px solid #EBEAEA; 
+	margin-bottom: 10px;
+}
+#btn{
+	width:144px;
+	height:34px;
+	border-radius:5px;
+	background: #FD6440;
+	color:#fff;
+	font-size: 16px;
+}
+.ppp{
+	height: 20px;
+}
+#BBSdiv{
+	float:right;
+}
+#intitle{
+	width: 390px;
+	height: 30px;
+	border:1px solid #ccc; 
+}

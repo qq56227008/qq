@@ -1,0 +1,321 @@
+.right {
+	font-family: "Microsoft YaHei";
+	float: right;
+	width: 250px
+}
+.right a:hover {
+    color: #ff6f3d;
+}
+.big_post_btn {
+	margin-bottom: 10px
+}
+.big_post_btn a {
+	display: inline-block;
+	width: 250px;
+	height: 45px;
+	background: url(../image/post_btn_big.png) 0 0 no-repeat rgba(0, 0, 0, 0)
+}
+
+/*打卡部分CSS*/
+.punch_card{
+	padding: 15px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	background-color: white;
+	margin-bottom: 10px;
+	width: 218px;
+}
+.part {
+    width: 218px;
+}
+.part_header {
+    background: rgba(0, 0, 0, 0) url("http://static.bbs.miui.com/static/image/miui/base/signin_3.png") no-repeat scroll left top;
+    height: 2px;
+    width: 218px;
+}
+.part_body {
+    background: rgba(0, 0, 0, 0) url("http://static.bbs.miui.com/static/image/miui/base/signin_4.png") repeat-y scroll left top;
+}
+.height_0 {
+    height: 92px;
+}
+.height_1 {
+    height: 242px;
+}
+.height_2 {
+    height: 182px;
+}
+.part_footer {
+    height: 64px;
+    position: relative;
+    width: 218px;
+}
+.part_footer p {
+    color: white;
+    font-size: 12px;
+    height: 12px;
+    left: 150px;
+    position: absolute;
+    width: 60px;
+}
+.pf_sign {
+    background: rgba(0, 0, 0, 0) url("http://static.bbs.miui.com/static/image/miui/base/signin_2.png") no-repeat scroll left top;
+}
+.pf_sign:hover {
+    background: rgba(0, 0, 0, 0) url("http://static.bbs.miui.com/static/image/miui/base/signin_2.png") no-repeat scroll left -80px;
+}
+.pf_signed {
+    background: rgba(0, 0, 0, 0) url("http://static.bbs.miui.com/static/image/miui/base/signin_0.png") no-repeat scroll left top;
+}
+.pf_sign_link {
+    display: block;
+    height: 64px;
+    position: absolute;
+    width: 122px;
+}
+.pf_sign_rank {
+    display: block;
+    height: 64px;
+    left: 122px;
+    position: absolute;
+    width: 96px;
+}
+.pf_num {
+    top: 13px;
+}
+.pf_day {
+    top: 36px;
+}
+.red_h2 {
+    color: #fe6c49;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+.red_h2 span {
+    background: rgba(0, 0, 0, 0) url("http://static.bbs.miui.com/static/image/miui/base/signin_1.png") no-repeat scroll -9px 0;
+    display: inline-block;
+    height: 12px;
+    width: 14px;
+}
+.black_h2 {
+    color: black;
+}
+.pb_p_0 {
+    color: #4c4c4c;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+.part_0 .red_h2 {
+    padding: 20px 0 7px;
+}
+.part_0 .red_h2 span {
+    margin-right: 8px;
+}
+.part_2 .red_h2 span {
+    background-position: -46px 0;
+}
+
+/*持续更新*/
+.update_version{
+	width: 218px ;
+	margin-bottom:10px ;
+	color:#444444 ;
+	padding: 15px 15px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	background-color: white;
+}
+.update_version h2{
+	font-size: 14px;
+	color: #666666;
+	line-height: 21px;
+	margin-bottom: 7px;
+}
+.update_version h2 a{
+	color: #666666;
+}
+.update_version h3{
+	font-size: 18px;
+	color: #4c4c4c;
+	line-height: 27px;
+	margin-bottom: 18px;
+	font-weight: bold;
+}
+.update_version div{
+	width: 218px;
+}
+.update_version div a{
+	width: 107px;
+	height: 35px;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 35px;
+	font-size: 12px;
+	color: white;
+}
+.download_link{
+	float: left;
+	background-color: #2ba9fa;
+}
+.update_version a.download_link:hover{
+	color: white;
+	background-color: #1a98e8;
+}
+.version_rec{
+	float: right;
+	background-color: #70c041;
+}
+.update_version a.version_rec:hover{
+	color: white;
+	background-color: #59ab28;
+}
+
+/*推荐版块*/
+.recommend_section{
+	width: 248px ;
+	margin-bottom:10px ;
+	color:#444444 ;
+	padding: 15px 0px 0px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	background-color: white;
+}
+.right_title{
+	font-size: 16px;
+	color: #444444;
+	line-height: 24px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.recommend_section .right_title{
+	padding-left: 15px;
+}
+.recommend_section ul{
+	border-top: 1px solid #ededed;
+}
+.recommend_section li{
+	float: left;
+    overflow: hidden;
+    border-bottom: 1px solid #ededed;
+    height: 43px;
+    line-height: 41px;
+    text-align: center;
+    width: 124px;
+    margin: 0;
+}
+.recommend_section a{
+	color: #666666;
+	font-size: 14px;
+}
+.recommend_section .lc {
+    border-right: 1px solid #ededed;
+    width: 123px;
+}
+.all_section{
+	height: 43px;
+	line-height: 41px;
+	text-align: center;
+	display: block;
+}
+
+/*热门活动*/
+.hot_activity{
+	width: 218px ;
+	margin-bottom:10px ;
+	color:#444444 ;
+	padding: 15px 15px 8px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	background-color: white;
+}
+.hot_activity a{
+	margin-bottom: 15px;
+	display: block;
+	text-align: center;
+	color: #666666;
+}
+.hot_activity a img{
+	border-radius: 5px;
+	margin-bottom: 5px;
+}
+.hot_activity a p{
+	font-size: 12px;
+	color: inherit;
+	line-height: 21px;
+}
+
+/*热门帖子*/
+.hot_posts {
+	width: 218px ;
+	margin-bottom:10px ;
+	color:#444444 ;
+	padding: 15px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.hot_posts_article li {
+    height: 24px;
+    overflow: hidden;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+.hot_posts_article li a {
+    color: #909090;
+    font-family: "Microsoft YaHei";
+    font-size: 12px;
+}
+
+
+
+/*关注我们*/
+.focus_us{
+	width: 218px ;
+	margin-bottom:10px ;
+	color:#444444 ;
+	padding: 15px 15px 19px;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+	background-color: white;
+}
+.our_focus{
+	margin: 0px auto 10px;
+    width: 237px
+}
+.our_focus li{
+	float: left;
+    padding: 4px 0;
+    font-size: 12px;
+}
+.our_focus li a{
+	color: #909090;
+    display: block;
+    float: left;
+    margin: 0 6px;
+    text-align: center;
+    width: 60px;
+}
+.our_focus .focus_list_left a {
+    text-align: left;
+}
+.sp_line {
+    color: #dadada;
+}
+#weixin_logo{
+	text-align: center;
+	font-size: 12px;
+}
+#weixin_logo img{
+	width: 120px;
+	height: 120px;
+}
+
+
+
+
+
+
